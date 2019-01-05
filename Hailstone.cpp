@@ -7,7 +7,7 @@ int Hailstone(int n)
 
     while(n > 1)
     {
-        n/2 == 0 ? n = n/2 : n = 3 * n + 1;
+        n & 1 == 0 ? n /= 2 : n = 3 * n + 1;
         ++length;  
     }
     return length;
