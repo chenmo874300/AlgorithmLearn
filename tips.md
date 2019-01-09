@@ -15,7 +15,7 @@ if中的赋值比较情况
     
 >部分if中的return不能被忘记
 
->if() else if()只走一个
+>if()若满足条件不进入 else if()
 
 除以2
 
